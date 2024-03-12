@@ -1,16 +1,15 @@
-
-
-plaintext
-Copy code
-# Virtual environment folder
+# Ignore virtual environments
 newvenv/
+venv/
+env/
 
-# Large model files
+# Ignore large model files
 *.h5
 
-# Python bytecode
+# Ignore Python compiled files and caches
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
+# Ignore other large files that should not be committed
+*.dylib
