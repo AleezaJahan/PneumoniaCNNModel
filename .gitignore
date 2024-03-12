@@ -1,2 +1,16 @@
-# Ignore large model files
+
+
+plaintext
+Copy code
+# Virtual environment folder
+newvenv/
+
+# Large model files
 *.h5
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
